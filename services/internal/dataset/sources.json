@@ -1,0 +1,24 @@
+[
+  {
+    "file_type": "csv",
+    "name": "english_words_basic",
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/eneko/data-repository/master/data/words.txt",
+    "keys":{
+        "name":"VARCHAR(50)"
+    },
+    "remove_rows": 0
+  },
+  {
+    "file_type": "csv",
+    "name": "top_level_domains",
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/incognico/list-of-top-level-domains/master/tlds.csv",
+    "keys":{
+        "name": "VARCHAR(255)",
+        "description":"VARCHAR(255)",
+        "type":"VARCHAR(20)"
+    },
+    "remove_rows": 0
+  }
+]
